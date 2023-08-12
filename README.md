@@ -41,9 +41,9 @@ New users are required to register or sign up on the app by providing the requir
 # Steps
 ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*vo-coBCLfaUscPcnzycK5g.png)
 
-1. Add two blank screens to the canvas and name the first screen the **Home Screen**. Paste the below codes in the **onVisible **and **Fill properties** of the **Home Screen**.
+1. Add two blank screens to the canvas and name the first screen the **Home Screen**. Paste the below codes in the **onVisible** and **Fill properties** of the **Home Screen**.
 
-**OnVisible**
+**OnVisible:**
 
 ` Set(gblShowErrorImage, false );
    ClearCollect(
@@ -62,7 +62,7 @@ New users are required to register or sign up on the app by providing the requir
       }
    );`
 
-**Fill**
+**Fill:**
 
 `ColorFade( RGBA(22, 255, 89, 1), 90%)`
 
@@ -86,7 +86,7 @@ Height: 720
 
 4. Add an **HTML Control** to the left-sided container and insert the code below into its **text property**. Set its **Height** and **Width** to desired values and add a desired image or background colour for the container background as shown in the image above.
 
-**HTML Text Property**
+**HTML Text Property:**
 
 `<div style= 'padding:15px;height:100px; width: "&Parent.Width &"px;  
 text-align:center; font-size:4.5em; font-family: Trebuchet MS; 
