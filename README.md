@@ -1,24 +1,23 @@
 # Powerapps-Login-And-Registration-Screen
-## Welcome to the Powerapps-Login-And-Registration-Screen wiki!
 
 ![](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*ri_IQr_oyxf2s7wx8enzGg.png)
 
 # Features include
 
 1. **Password validation:**
-Ensuring that passwords include uppercase, lowercase, numbers, and symbols.
+Ensure passwords include uppercase, lowercase, numbers, and symbols.
 
 2. **Unique username and email address:**
-Making sure that each user has a distinct username and email.
+Ensure users have distinct usernames and emails.
 
 3. **Gmail account requirement:**
-Allowing only Gmail accounts for registration.
+Ensure only Gmail accounts for registration.
 
 4. **Email confirmation code:**
-Sending a code for email confirmation that expires after 5 minutes.
+   Send confirmation code that expires after 5 minutes.
 
 5. **Password recovery:**
-Enabling users to recover their accounts if they forget their passwords.
+Enable users to recover their accounts if they forget their passwords.
 
 
 # When can a power app have a login screen?
