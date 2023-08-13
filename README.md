@@ -41,7 +41,9 @@ New users are required to register or sign up on the app by providing the requir
 # Steps
 ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*vo-coBCLfaUscPcnzycK5g.png)
 
-1. Add two blank screens to the canvas and name the first screen the **Home Screen**. Paste the below codes in the **onVisible** and **Fill properties** of the **Home Screen**.
+**Step 1** 
+
+Add two blank screens to the canvas and name the first screen the **Home Screen**. Paste the below codes in the **onVisible** and **Fill properties** of the **Home Screen**.
 
 **OnVisible:**
 
@@ -66,7 +68,9 @@ New users are required to register or sign up on the app by providing the requir
 
 `ColorFade( RGBA(22, 255, 89, 1), 90%)`
 
-2. Add a **horizontal container** to the home screen and set its properties to the values below. This container should cover the entire width and height of the screen.
+**Step 2** 
+
+Add a **horizontal container** to the home screen and set its properties to the values below. This container should cover the entire width and height of the screen.
 
 * **Justify:** `Center`
 * **Align:** `Center`
@@ -75,7 +79,9 @@ New users are required to register or sign up on the app by providing the requir
 * **Gap:** `15`
 * **Fill:** `Transparent`
 
-3. Add **two non-responsive containers** into the vertical container created in Step 1 and set their properties to the values provided below.
+**Step 3** 
+
+Add **two non-responsive containers** into the vertical container created in Step 1 and set their properties to the values provided below.
 * **Height:** `720`
 * **Align in container:** `Set by container` and `Center`
 * **Flexible width:** `Off`
@@ -84,7 +90,9 @@ New users are required to register or sign up on the app by providing the requir
 * **Border radius:** `8`
 * **Drop shadow:** `Bold`
 
-4. Add an **HTML Control** to the left-sided container and insert the code below into its **text property**. Set its **Height** and **Width** to desired values and add a desired image or background colour for the container background as shown in the image above.
+**Step 4** 
+
+Add an **HTML Control** to the left-sided container and insert the code below into its **text property**. Set its **Height** and **Width** to desired values and add a desired image or background colour for the container background as shown in the image above.
 
 **HTML Text Property:**
 
@@ -92,7 +100,9 @@ New users are required to register or sign up on the app by providing the requir
 text-align:center; font-size:4.5em; font-family: Trebuchet MS; 
 font-weight:900'>Application Registration Demo</div>`
 
-5. Add a **blank vertical gallery** into the left-sided container as seen above and name it **MenuGallery**. Also, add a **button control** to the gallery template and adjust their **X** and **Y** properties to achieve a similar appearance to what is displayed above, then use the values provided below to set the other properties.
+**Step 5** 
+
+Add a **blank vertical gallery** into the left-sided container as seen above and name it **MenuGallery**. Also, add a **button control** to the gallery template and adjust their **X** and **Y** properties to achieve a similar appearance to what is displayed above, then use the values provided below to set the other properties.
 
 * **Gallery Items:** `colMenuTable`
 * **Gallery On Select:**
