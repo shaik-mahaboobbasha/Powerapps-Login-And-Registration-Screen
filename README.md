@@ -25,6 +25,7 @@ Create a SharePoint list with the name **LoginDemo** using the column names as s
 
 #### Step 2:
 Create another SharePoint list with the name **LoginRecords** using the column names as seen below. The **User** column is a single-line text field, while the **LoginTime** and **LogoutTime** columns are **Date** fields. The **Title** field must be set to **Not Required** in this case. 
+
 ![](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*DNDJT6zlGQu0dxtiJkHzKA.png)
 
 
